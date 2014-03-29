@@ -3,6 +3,7 @@
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 	padding: 12px 0;
+	margin: 16px 0;
 }
 #webshare-wrapper ul {
 	list-style: none;
@@ -11,7 +12,7 @@
 }
 #webshare-wrapper ul li {
 	display: inline-block;
-	margin-right: 8px;
+	margin: 0 8px 0 0;
 }
 #webshare-wrapper ul li  a::before {
 	display: inline-block;
