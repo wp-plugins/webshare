@@ -59,6 +59,9 @@ No. You can only add Twitter username in your profile page.
 
 Not at the moment. I think about adding social sharing after content.
 
+== Screenshots ==
+
+1. Webshare after content
 
 == Changelog ==
 
