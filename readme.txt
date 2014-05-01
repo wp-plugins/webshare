@@ -19,7 +19,7 @@ Webshare is another social sharing plugin but it only displays sharing links wit
 When you activate the plugin social sharing appears after singular post. You can drag and drop social icons in
 different order under Settings >> Webshare.
 
-[https://www.youtube.com/watch?v=EIEiXKO562k]
+[youtube https://www.youtube.com/watch?v=EIEiXKO562k]
 
 There you can choose under which post types you want social icons to appear or do you want to disable some of them.
 
