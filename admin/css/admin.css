@@ -1,3 +1,7 @@
+#webshare-ul-sort li.list_item {
+	cursor: move;
+}
+
 /* Webshare icons CSS. */
 #webshare-wrapper {
 	border-top: 1px solid #ddd;
@@ -12,46 +16,35 @@
 }
 #webshare-wrapper ul li {
 	display: inline-block;
-	margin: 0 8px 0 0;
+	margin: 0 16px 0 0;
+	width: 32px;
+	height: 32px;
 }
 #webshare-wrapper ul li a {
 	display: inline-block;
 }
-#webshare-wrapper ul li  a::before {
-	display: inline-block;
-	content: '\f409';
-	padding: 0 5px 0 0;
-	-webkit-font-smoothing: antialiased;
-	font: normal 24px/0.9 'Genericons';
-	width: 24px;
-	height: 24px;
-	vertical-align: middle;
+#webshare-wrapper ul li.list_item {
+	font-size: 32px;
 }
-#webshare-wrapper ul li  a.webshare-facebook::before {
-	content: '\f204';
-}
-#webshare-wrapper ul li  a.webshare-twitter::before {
-	content: '\f202';
-}
-#webshare-wrapper ul li  a.webshare-google::before {
-	content: '\f206';
+#webshare-wrapper ul li.webshare-share {
+	margin-top: 7px;
 }
 
 /* Screen reader text. */
-.webshare-link {
+.webshare-span {
 	clip: rect(1px, 1px, 1px, 1px);
 	position: absolute;
 }
-#webshare-wrapper .webshare-link {
+#webshare-wrapper .webshare-span {
 	top: -9999em;
 	left: -9999em;
 }
 
-.webshare-link:focus {
+.webshare-span:focus {
 	background-color: #f1f1f1;
 	border-radius: 3px;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	clip: auto !important;
+	clip: auto;
 	color: #21759b;
 	display: block;
 	font-size: 14px;
