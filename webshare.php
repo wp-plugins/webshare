@@ -3,7 +3,7 @@
 * Plugin Name: WebShare
 * Plugin URI: https://foxnet-themes.fi/downloads/webshare
 * Description: Adds social sharing links.
-* Version: 1.2.1
+* Version: 1.2.2
 * Author: Sami Keijonen
 * Author URI: https://foxnet-themes.fi
 * Text Domain: webshare
@@ -17,7 +17,7 @@
 * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 *
 * @package WebShare
-* @version 1.2.1
+* @version 1.2.2
 * @author Sami Keijonen <sami.keijonen@foxnet.fi>
 * @copyright Copyright (c) 2014, Sami Keijonen
 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -90,7 +90,7 @@ final class WEBSHARE {
 		
 		/* Define Plugin Version. */
 		if ( ! defined( 'WEBSHARE_VERSION' ) ) {
-			define( 'WEBSHARE_VERSION', '1.2.1' );
+			define( 'WEBSHARE_VERSION', '1.2.2' );
 		}
 
 	}
